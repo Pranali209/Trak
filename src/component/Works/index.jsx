@@ -30,11 +30,11 @@ function Works() {
         },
         {
             id: 2,
-            Htitle: 'See your path',
-            ptxt: "A roadmap designed just for you Once we know where you are and where you want to go, Trak creates a dynamic, personalized pathway. This isn’t a static plan – it evolves with you.",
+            Htitle: 'See Your Skill Plan',
+            ptxt: "A Plan, built for results.Once Trak understands your goals and current skills, it creates a real-time skill plan tailored just for you. This isn’t a one-time list — it evolves as you learn, adapt, and grow.",
             img: Work2,
-            list1: "What you do: Engage with your personalized pathway, exploring the skills and",
-            list2: "What Trak does: Continuously updates your pathway based on your progress and"
+            list1: "What you do: Follow your personalized skill strategy — step-by-step learning with built-in flexibility.",
+            list2: "What Trak does: Uses live job market data and your progress to continuously refine your path for maximum impact."
 
         },
         {
@@ -44,21 +44,6 @@ function Works() {
             img: Work3,
             list1: "What you’ll find: Learning content dynamically personalized based on your style and pace.",
             list2: "What keeps you going: Regular updates and progress tracking keep you motivated."
-
-        }, {
-            id: 4,
-            Htitle: "Unlock Milestones",
-            ptxt: "Celebrate your progress along the way.As you follow your pathway, you’ll achieve key milestones like joining an exclusive Discord community, getting internship opportunities, and earning certifications.",
-            img: Work4,
-            list1: "What makes it exciting: Achieving tangible rewards as you grow.",
-            list2: "What’s next: Trak adapts to help you reach even bigger goals."
-        }, {
-            id: 5,
-            Htitle: " Reach Your Dream Career",
-            ptxt: "From potential to reality.With your personalized learning pathway, you’ll close skill gaps and gain the confidence to step into your dream career. And the best part? Trak is always there to support your next move.",
-            img: Work5,
-            list1: "",
-            list2: ""
 
         }
 
@@ -109,15 +94,15 @@ function Works() {
 
                 <div className=' flex flex-col items-end mt-40 max-md:mt-3 max-md:w-full  '>
                     <img src={Work2} alt="step1" className=' h-28' />
-                    <h1 className='text-xl font-semibold mt-3.5'>See your path</h1>
+                    <h1 className='text-xl font-semibold mt-3.5'>See Your Skill Plan</h1>
                     <div className='w-[40%] max-md:w-[40%] mt-3.5  ml-6'>
                         <p className=' text-sm max-md:text-xs  '>
-                            A roadmap designed just for you Once we know where you are and where you want to go, Trak creates a dynamic, personalized pathway. This isn’t a static plan – it evolves with you.
-                        </p>
+                        A Plan, built for results.
+Once Trak understands your goals and current skills, it creates a real-time skill plan tailored just for you. This isn’t a one-time list — it evolves as you learn, adapt, and grow.
+  </p>
                         <ul className=' list-disc text-sm max-md:text-xs  '>
-                            <li className='ml-7 max-md:ml-3'>What you do: Engage with your personalized pathway, exploring the skills and
-                            </li>
-                            <li className='ml-7 max-md:ml-3'>What Trak does: Analyzes your inpuSee your pathts using AI to identify your skill gaps and opportunities.</li>
+                            <li className='ml-7 max-md:ml-3'> What you do: Follow your personalized skill strategy — step-by-step learning with built-in flexibility.</li>
+                            <li className='ml-7 max-md:ml-3'>What Trak does: Uses live job market data and your progress to continuously refine your path for maximum impact.</li>
                         </ul>
 
                     </div>
@@ -152,53 +137,7 @@ function Works() {
                 </div>
 
 
-                <div className='flex relative'>
-                    <div className=' flex flex-col items-end mt-64 max-md:mt-10   '>
-                        <img src={Work4} alt="step1" className=' h-28' />
-                        <h1 className='text-xl font-semibold mt-3.5'>See your path</h1>
-                        <div className='w-[40%] mt-3.5 '>
-                            <p className=' text-sm max-md:text-xs '>
 
-                                A roadmap designed just for you Once we know where you are and where you want to go, Trak creates a dynamic, personalized pathway. This isn’t a static plan – it evolves with you.
-                            </p>
-                            <ul className=' list-disc text-sm max-md:text-xs '>
-                                <li className='ml-7 max-md:ml-3'>What you do: Engage with your personalized pathway, exploring the skills and
-                                </li>
-                                <li className='ml-7 max-md:ml-3'>What Trak does: Analyzes your inpuSee your pathts using AI to identify your skill gaps and opportunities.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <AnimatedPath className="h-[37rem]  left-14 -top-48 max-md:-top-96 "
-                        svgpath="M2.4303 51.706C207.959 -39.7872 638.47 -67.0804 716.289 555.692C751.124 957.864 1069.11 1093.1 1380.3 1024.49"
-                        pathId="dottedLine3"
-                        arrowRef={arrowRef} 
-                        timeline={timeline.current} />
-                </div>
-
-
-                <div className=' flex relative max-md:w-full '>
-                    <div className=' flex flex-col items-start mt-40  max-md:mt-20  '>
-                        <img src={Work5} alt="step1" className=' h-28' />
-                        <h1 className='text-xl font-semibold mt-3.5'>See your path</h1>
-                        <div className='w-[40%] mt-3.5 '>
-                            <p className=' text-sm max-md:text-xs '>
-                                A roadmap designed just for you Once we know where you are and where you want to go, Trak creates a dynamic, personalized pathway. This isn’t a static plan – it evolves with you.
-                            </p>
-                            <ul className=' list-disc text-sm max-md:text-xs   '>
-                                <li className='ml-7 max-md:ml-3'>What you do: Engage with your personalized pathway, exploring the skills and
-                                </li>
-                                <li className='ml-7 max-md:ml-3'>What Trak does: Analyzes your inpuSee your pathts using AI to identify your skill gaps and opportunities.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <AnimatedPath
-                        className="h-[37rem] left-8  max-md:-top-44 "
-                        svgpath="M1180.68 2.55774C1087.34 210.201 868.946 345.129 612.982 214.172C206.299 25.3335 36.6516 287.155 2.66342 441.671" // Bottom-to-top
-                        pathId="dottedLine4"
-                        arrowRef={arrowRef} 
-                        timeline={timeline.current}
-                    />
-                </div>
             </section>
            <Button txt = " Start My Personalized Path Today" navigateTo="pathway"/>
         </div>
